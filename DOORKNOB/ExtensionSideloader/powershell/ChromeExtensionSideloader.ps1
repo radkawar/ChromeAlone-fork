@@ -4,7 +4,7 @@ param(
     [string]$ExtensionInstallDir = "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Extensions\myextension",
     [string]$ExtensionDescription = "Chrome Extension",
     [string]$InstallNativeMessagingHost = "false",
-    [string]$ForceRestartChrome = "false"
+    [string]$ForceRestartChrome = "true"
 )
 
 # ChromePathHelper functions
